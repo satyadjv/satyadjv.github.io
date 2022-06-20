@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
+
+body {
+    font-family: 'Rambla', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  header {
+    display: inline;
+ }
+  main {
+    padding: 20px;
+    overflow: auto;
+  }
+  
+h2 {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.featured-title {
+  margin-top: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+h3 {
+    color: #71634e;
+}
+  
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #8f7e65;
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+ }
+ .featured-video {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .profile img {
+    width: 200px;
+ }
+
+ .card {
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .jumbotron {
+  
+    padding-top: 0!important;
+    padding-right: 20px!important;
+    padding-bottom: 0!important;
+    padding-left: 20px!important;
+    position:absolute;top:30%;left:50%;
+    transform:translate(-50%,-50%);
+    /* background-color: #00c8eb; */
+    text-align: center!important;
+    font-size: 20px!important;
+    /* color: white;  */
+    color:#fff!important;
+    box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    background-color:#000!important
+  }
+
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  nav {
+    background-color: #8f7e65;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+  nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+  #content {
+    float: left;
+    width: 75%;
+  }
+  aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+  @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .mySlides {
+    display:none;
+    width: 100%;
+    max-height: 565px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .p-first {
+    text-indent: 2em;
+  }
+
+  th {
+    float: left;
+  }
+figcaption {
+
+  font-weight: normal;
+
+}
